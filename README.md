@@ -10,12 +10,21 @@ This project is a fictional service for sending bank account information from a 
 3. Returns a file with the result of sending the recipe update. Same format adding the result in a new column.
 
 #### CSV example:  
+Input:  
 agencia;conta;saldo;status  
 0101;12225-6;100,00;P  
 0101;12226-8;3200.50;A  
 3202;40011-1;-35,12;I  
 3202;54001-2;0,00;P  
 3202;00321-2;34500,00;B  
+
+Output:  
+agencia;conta;saldo;status;resultado  
+3202;54001-2;0,00;P;true  
+0101;12225-6;100,00;P;true  
+3202;00321-2;34500,00;B;true  
+3202;40011-1;-35,12;I;true  
+0101;12226-8;3200.50;A;true  
 
 ### How to use:
 - Download the jar file provided in the [releases page](https://github.com/IgorGMoraes/sincronizacao-receita/releases/tag/v1.0) 
