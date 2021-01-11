@@ -29,7 +29,7 @@ agencia;conta;saldo;status;resultado
 ### How to use:
 - Download the jar file provided in the [releases page](https://github.com/IgorGMoraes/sincronizacao-receita/releases/tag/v1.0) 
 - Place your CSV file in the same directory
-- Then run: `java - jar sincronizacao-receita-1.0.jar <CSV_file_name>`
+- Then run: `java -jar sincronizacao-receita-1.0.jar <CSV_file_name>`
 
 ***
 #### Technologies used:
